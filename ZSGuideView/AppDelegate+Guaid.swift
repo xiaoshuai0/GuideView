@@ -31,16 +31,21 @@ extension AppDelegate {
     
     public override class func initialize(){
 
-        DispatchQueue.once(token: "交换appDelegate方法") {
-            let lastVersion = UserDefaults.standard.float(forKey: "lastVersionKey")
-            let currentVersion = Float((Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String) ?? "0")!
-            if currentVersion > lastVersion {
+        let lastVersion = UserDefaults.standard.float(forKey: "lastVersionKey")
+        let currentVersion = Float((Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String) ?? "0")!
+        if currentVersion > lastVersion {
+            DispatchQueue.once(token: "交换appDelegate方法") {
+                
+                
                 let originalMethod = class_getInstanceMethod(self, #selector(application(_:didFinishLaunchingWithOptions:)))
                 let customMethod = class_getInstanceMethod(self, #selector(guide_application(_:didFinishLaunchingWithOptions:)))
                 method_exchangeImplementations(originalMethod, customMethod)
+                
+                
             }
-            
+        
         }
+        
         
     }
     

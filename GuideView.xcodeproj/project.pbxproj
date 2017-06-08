@@ -18,6 +18,29 @@
 		DCD42B3D1EE8EFF800D7AF6C /* AppDelegate+Guaid.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B3C1EE8EFF800D7AF6C /* AppDelegate+Guaid.swift */; };
 		DCD42B3F1EE8F01300D7AF6C /* ZSGuaidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B3E1EE8F01300D7AF6C /* ZSGuaidViewController.swift */; };
 		DCD42B411EE8F03D00D7AF6C /* ZSGuaidViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B401EE8F03D00D7AF6C /* ZSGuaidViewCell.swift */; };
+		DCD42B491EE93A3E00D7AF6C /* ZSLaunchAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B481EE93A3E00D7AF6C /* ZSLaunchAdViewController.swift */; };
+		DCD42B631EE93A5500D7AF6C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DCD42B4B1EE93A5500D7AF6C /* LICENSE */; };
+		DCD42B641EE93A5500D7AF6C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B4C1EE93A5500D7AF6C /* README.md */; };
+		DCD42B651EE93A5500D7AF6C /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B4E1EE93A5500D7AF6C /* AnimatedImageView.swift */; };
+		DCD42B661EE93A5500D7AF6C /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B4F1EE93A5500D7AF6C /* Box.swift */; };
+		DCD42B671EE93A5500D7AF6C /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B501EE93A5500D7AF6C /* CacheSerializer.swift */; };
+		DCD42B681EE93A5500D7AF6C /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B511EE93A5500D7AF6C /* Filter.swift */; };
+		DCD42B691EE93A5500D7AF6C /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B521EE93A5500D7AF6C /* Image.swift */; };
+		DCD42B6A1EE93A5500D7AF6C /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B531EE93A5500D7AF6C /* ImageCache.swift */; };
+		DCD42B6B1EE93A5500D7AF6C /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B541EE93A5500D7AF6C /* ImageDownloader.swift */; };
+		DCD42B6C1EE93A5500D7AF6C /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B551EE93A5500D7AF6C /* ImagePrefetcher.swift */; };
+		DCD42B6D1EE93A5500D7AF6C /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B561EE93A5500D7AF6C /* ImageProcessor.swift */; };
+		DCD42B6E1EE93A5500D7AF6C /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B571EE93A5500D7AF6C /* ImageTransition.swift */; };
+		DCD42B6F1EE93A5500D7AF6C /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B581EE93A5500D7AF6C /* ImageView+Kingfisher.swift */; };
+		DCD42B701EE93A5500D7AF6C /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B591EE93A5500D7AF6C /* Indicator.swift */; };
+		DCD42B711EE93A5500D7AF6C /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B5B1EE93A5500D7AF6C /* Kingfisher.swift */; };
+		DCD42B721EE93A5500D7AF6C /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B5C1EE93A5500D7AF6C /* KingfisherManager.swift */; };
+		DCD42B731EE93A5500D7AF6C /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B5D1EE93A5500D7AF6C /* KingfisherOptionsInfo.swift */; };
+		DCD42B741EE93A5500D7AF6C /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B5E1EE93A5500D7AF6C /* RequestModifier.swift */; };
+		DCD42B751EE93A5500D7AF6C /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B5F1EE93A5500D7AF6C /* Resource.swift */; };
+		DCD42B761EE93A5500D7AF6C /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B601EE93A5500D7AF6C /* String+MD5.swift */; };
+		DCD42B771EE93A5500D7AF6C /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B611EE93A5500D7AF6C /* ThreadHelper.swift */; };
+		DCD42B781EE93A5500D7AF6C /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B621EE93A5500D7AF6C /* UIButton+Kingfisher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +78,30 @@
 		DCD42B3C1EE8EFF800D7AF6C /* AppDelegate+Guaid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Guaid.swift"; sourceTree = "<group>"; };
 		DCD42B3E1EE8F01300D7AF6C /* ZSGuaidViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSGuaidViewController.swift; sourceTree = "<group>"; };
 		DCD42B401EE8F03D00D7AF6C /* ZSGuaidViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSGuaidViewCell.swift; sourceTree = "<group>"; };
+		DCD42B481EE93A3E00D7AF6C /* ZSLaunchAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSLaunchAdViewController.swift; sourceTree = "<group>"; };
+		DCD42B4B1EE93A5500D7AF6C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DCD42B4C1EE93A5500D7AF6C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DCD42B4E1EE93A5500D7AF6C /* AnimatedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedImageView.swift; sourceTree = "<group>"; };
+		DCD42B4F1EE93A5500D7AF6C /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		DCD42B501EE93A5500D7AF6C /* CacheSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheSerializer.swift; sourceTree = "<group>"; };
+		DCD42B511EE93A5500D7AF6C /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		DCD42B521EE93A5500D7AF6C /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		DCD42B531EE93A5500D7AF6C /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		DCD42B541EE93A5500D7AF6C /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		DCD42B551EE93A5500D7AF6C /* ImagePrefetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePrefetcher.swift; sourceTree = "<group>"; };
+		DCD42B561EE93A5500D7AF6C /* ImageProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		DCD42B571EE93A5500D7AF6C /* ImageTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTransition.swift; sourceTree = "<group>"; };
+		DCD42B581EE93A5500D7AF6C /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		DCD42B591EE93A5500D7AF6C /* Indicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
+		DCD42B5A1EE93A5500D7AF6C /* Kingfisher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kingfisher.h; sourceTree = "<group>"; };
+		DCD42B5B1EE93A5500D7AF6C /* Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kingfisher.swift; sourceTree = "<group>"; };
+		DCD42B5C1EE93A5500D7AF6C /* KingfisherManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherManager.swift; sourceTree = "<group>"; };
+		DCD42B5D1EE93A5500D7AF6C /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
+		DCD42B5E1EE93A5500D7AF6C /* RequestModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestModifier.swift; sourceTree = "<group>"; };
+		DCD42B5F1EE93A5500D7AF6C /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		DCD42B601EE93A5500D7AF6C /* String+MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+MD5.swift"; sourceTree = "<group>"; };
+		DCD42B611EE93A5500D7AF6C /* ThreadHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadHelper.swift; sourceTree = "<group>"; };
+		DCD42B621EE93A5500D7AF6C /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +153,7 @@
 		DCD42B0A1EE8EEBC00D7AF6C /* GuideView */ = {
 			isa = PBXGroup;
 			children = (
+				DCD42B4A1EE93A5500D7AF6C /* Kingfisher */,
 				DCD42B0B1EE8EEBC00D7AF6C /* AppDelegate.swift */,
 				DCD42B0D1EE8EEBC00D7AF6C /* ViewController.swift */,
 				DCD42B0F1EE8EEBC00D7AF6C /* Main.storyboard */,
@@ -138,11 +186,50 @@
 			isa = PBXGroup;
 			children = (
 				DCD42B3A1EE8EF3C00D7AF6C /* GuideProperty.plist */,
+				DCD42B481EE93A3E00D7AF6C /* ZSLaunchAdViewController.swift */,
 				DCD42B3C1EE8EFF800D7AF6C /* AppDelegate+Guaid.swift */,
 				DCD42B3E1EE8F01300D7AF6C /* ZSGuaidViewController.swift */,
 				DCD42B401EE8F03D00D7AF6C /* ZSGuaidViewCell.swift */,
 			);
 			path = ZSGuideView;
+			sourceTree = "<group>";
+		};
+		DCD42B4A1EE93A5500D7AF6C /* Kingfisher */ = {
+			isa = PBXGroup;
+			children = (
+				DCD42B4B1EE93A5500D7AF6C /* LICENSE */,
+				DCD42B4C1EE93A5500D7AF6C /* README.md */,
+				DCD42B4D1EE93A5500D7AF6C /* Sources */,
+			);
+			path = Kingfisher;
+			sourceTree = "<group>";
+		};
+		DCD42B4D1EE93A5500D7AF6C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DCD42B4E1EE93A5500D7AF6C /* AnimatedImageView.swift */,
+				DCD42B4F1EE93A5500D7AF6C /* Box.swift */,
+				DCD42B501EE93A5500D7AF6C /* CacheSerializer.swift */,
+				DCD42B511EE93A5500D7AF6C /* Filter.swift */,
+				DCD42B521EE93A5500D7AF6C /* Image.swift */,
+				DCD42B531EE93A5500D7AF6C /* ImageCache.swift */,
+				DCD42B541EE93A5500D7AF6C /* ImageDownloader.swift */,
+				DCD42B551EE93A5500D7AF6C /* ImagePrefetcher.swift */,
+				DCD42B561EE93A5500D7AF6C /* ImageProcessor.swift */,
+				DCD42B571EE93A5500D7AF6C /* ImageTransition.swift */,
+				DCD42B581EE93A5500D7AF6C /* ImageView+Kingfisher.swift */,
+				DCD42B591EE93A5500D7AF6C /* Indicator.swift */,
+				DCD42B5A1EE93A5500D7AF6C /* Kingfisher.h */,
+				DCD42B5B1EE93A5500D7AF6C /* Kingfisher.swift */,
+				DCD42B5C1EE93A5500D7AF6C /* KingfisherManager.swift */,
+				DCD42B5D1EE93A5500D7AF6C /* KingfisherOptionsInfo.swift */,
+				DCD42B5E1EE93A5500D7AF6C /* RequestModifier.swift */,
+				DCD42B5F1EE93A5500D7AF6C /* Resource.swift */,
+				DCD42B601EE93A5500D7AF6C /* String+MD5.swift */,
+				DCD42B611EE93A5500D7AF6C /* ThreadHelper.swift */,
+				DCD42B621EE93A5500D7AF6C /* UIButton+Kingfisher.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +346,7 @@
 				DCD42B161EE8EEBC00D7AF6C /* LaunchScreen.storyboard in Resources */,
 				DCD42B131EE8EEBC00D7AF6C /* Assets.xcassets in Resources */,
 				DCD42B111EE8EEBC00D7AF6C /* Main.storyboard in Resources */,
+				DCD42B631EE93A5500D7AF6C /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +371,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD42B661EE93A5500D7AF6C /* Box.swift in Sources */,
+				DCD42B721EE93A5500D7AF6C /* KingfisherManager.swift in Sources */,
+				DCD42B6A1EE93A5500D7AF6C /* ImageCache.swift in Sources */,
+				DCD42B6D1EE93A5500D7AF6C /* ImageProcessor.swift in Sources */,
+				DCD42B6B1EE93A5500D7AF6C /* ImageDownloader.swift in Sources */,
+				DCD42B691EE93A5500D7AF6C /* Image.swift in Sources */,
+				DCD42B711EE93A5500D7AF6C /* Kingfisher.swift in Sources */,
+				DCD42B781EE93A5500D7AF6C /* UIButton+Kingfisher.swift in Sources */,
+				DCD42B771EE93A5500D7AF6C /* ThreadHelper.swift in Sources */,
+				DCD42B761EE93A5500D7AF6C /* String+MD5.swift in Sources */,
 				DCD42B3F1EE8F01300D7AF6C /* ZSGuaidViewController.swift in Sources */,
+				DCD42B681EE93A5500D7AF6C /* Filter.swift in Sources */,
+				DCD42B751EE93A5500D7AF6C /* Resource.swift in Sources */,
+				DCD42B671EE93A5500D7AF6C /* CacheSerializer.swift in Sources */,
+				DCD42B6F1EE93A5500D7AF6C /* ImageView+Kingfisher.swift in Sources */,
+				DCD42B491EE93A3E00D7AF6C /* ZSLaunchAdViewController.swift in Sources */,
+				DCD42B701EE93A5500D7AF6C /* Indicator.swift in Sources */,
 				DCD42B411EE8F03D00D7AF6C /* ZSGuaidViewCell.swift in Sources */,
+				DCD42B741EE93A5500D7AF6C /* RequestModifier.swift in Sources */,
+				DCD42B731EE93A5500D7AF6C /* KingfisherOptionsInfo.swift in Sources */,
+				DCD42B651EE93A5500D7AF6C /* AnimatedImageView.swift in Sources */,
+				DCD42B641EE93A5500D7AF6C /* README.md in Sources */,
 				DCD42B0E1EE8EEBC00D7AF6C /* ViewController.swift in Sources */,
 				DCD42B3D1EE8EFF800D7AF6C /* AppDelegate+Guaid.swift in Sources */,
+				DCD42B6C1EE93A5500D7AF6C /* ImagePrefetcher.swift in Sources */,
 				DCD42B0C1EE8EEBC00D7AF6C /* AppDelegate.swift in Sources */,
+				DCD42B6E1EE93A5500D7AF6C /* ImageTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +549,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = HMGRWTVWZ7;
 				INFOPLIST_FILE = GuideView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -452,6 +563,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = HMGRWTVWZ7;
 				INFOPLIST_FILE = GuideView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -538,6 +650,7 @@
 				DCD42B321EE8EEBC00D7AF6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCD42B331EE8EEBC00D7AF6C /* Build configuration list for PBXNativeTarget "GuideViewTests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +659,7 @@
 				DCD42B351EE8EEBC00D7AF6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCD42B361EE8EEBC00D7AF6C /* Build configuration list for PBXNativeTarget "GuideViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +668,7 @@
 				DCD42B381EE8EEBC00D7AF6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

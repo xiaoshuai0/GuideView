@@ -17,6 +17,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         print("222")
+        window = UIWindow(frame: ScreenBounds)
+        window?.backgroundColor = UIColor.white
+        window?.rootViewController = ZSLaunchAdViewController.init(skipBtnPosition: .rightTop, setAdParams: { (advc) in
+            advc.setAdImageView(url: "http://chatm-icon.oss-cn-beijing.aliyuncs.com/pic/pic_20170331202849335.png", defaultDuration: 3, adDuration: 4, adImageViewClick: {
+                
+            }, completion: {
+                self.window?.rootViewController = ViewController()
+            })
+            
+        })
+        window?.makeKeyAndVisible()
         return true
     }
 
