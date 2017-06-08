@@ -14,6 +14,10 @@
 		DCD42B161EE8EEBC00D7AF6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD42B141EE8EEBC00D7AF6C /* LaunchScreen.storyboard */; };
 		DCD42B211EE8EEBC00D7AF6C /* GuideViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B201EE8EEBC00D7AF6C /* GuideViewTests.swift */; };
 		DCD42B2C1EE8EEBC00D7AF6C /* GuideViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B2B1EE8EEBC00D7AF6C /* GuideViewUITests.swift */; };
+		DCD42B3B1EE8EF3C00D7AF6C /* GuideProperty.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCD42B3A1EE8EF3C00D7AF6C /* GuideProperty.plist */; };
+		DCD42B3D1EE8EFF800D7AF6C /* AppDelegate+Guaid.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B3C1EE8EFF800D7AF6C /* AppDelegate+Guaid.swift */; };
+		DCD42B3F1EE8F01300D7AF6C /* ZSGuaidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B3E1EE8F01300D7AF6C /* ZSGuaidViewController.swift */; };
+		DCD42B411EE8F03D00D7AF6C /* ZSGuaidViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD42B401EE8F03D00D7AF6C /* ZSGuaidViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		DCD42B271EE8EEBC00D7AF6C /* GuideViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuideViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD42B2B1EE8EEBC00D7AF6C /* GuideViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewUITests.swift; sourceTree = "<group>"; };
 		DCD42B2D1EE8EEBC00D7AF6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD42B3A1EE8EF3C00D7AF6C /* GuideProperty.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GuideProperty.plist; sourceTree = "<group>"; };
+		DCD42B3C1EE8EFF800D7AF6C /* AppDelegate+Guaid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Guaid.swift"; sourceTree = "<group>"; };
+		DCD42B3E1EE8F01300D7AF6C /* ZSGuaidViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSGuaidViewController.swift; sourceTree = "<group>"; };
+		DCD42B401EE8F03D00D7AF6C /* ZSGuaidViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSGuaidViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 		DCD42AFF1EE8EEBC00D7AF6C = {
 			isa = PBXGroup;
 			children = (
+				DCD42B391EE8EEE600D7AF6C /* ZSGuideView */,
 				DCD42B0A1EE8EEBC00D7AF6C /* GuideView */,
 				DCD42B1F1EE8EEBC00D7AF6C /* GuideViewTests */,
 				DCD42B2A1EE8EEBC00D7AF6C /* GuideViewUITests */,
@@ -123,6 +132,17 @@
 				DCD42B2D1EE8EEBC00D7AF6C /* Info.plist */,
 			);
 			path = GuideViewUITests;
+			sourceTree = "<group>";
+		};
+		DCD42B391EE8EEE600D7AF6C /* ZSGuideView */ = {
+			isa = PBXGroup;
+			children = (
+				DCD42B3A1EE8EF3C00D7AF6C /* GuideProperty.plist */,
+				DCD42B3C1EE8EFF800D7AF6C /* AppDelegate+Guaid.swift */,
+				DCD42B3E1EE8F01300D7AF6C /* ZSGuaidViewController.swift */,
+				DCD42B401EE8F03D00D7AF6C /* ZSGuaidViewCell.swift */,
+			);
+			path = ZSGuideView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD42B3B1EE8EF3C00D7AF6C /* GuideProperty.plist in Resources */,
 				DCD42B161EE8EEBC00D7AF6C /* LaunchScreen.storyboard in Resources */,
 				DCD42B131EE8EEBC00D7AF6C /* Assets.xcassets in Resources */,
 				DCD42B111EE8EEBC00D7AF6C /* Main.storyboard in Resources */,
@@ -262,7 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD42B3F1EE8F01300D7AF6C /* ZSGuaidViewController.swift in Sources */,
+				DCD42B411EE8F03D00D7AF6C /* ZSGuaidViewCell.swift in Sources */,
 				DCD42B0E1EE8EEBC00D7AF6C /* ViewController.swift in Sources */,
+				DCD42B3D1EE8EFF800D7AF6C /* AppDelegate+Guaid.swift in Sources */,
 				DCD42B0C1EE8EEBC00D7AF6C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
